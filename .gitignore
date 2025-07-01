@@ -1,0 +1,19 @@
+# Ignore Python cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter Notebook checkpoints (if you ever add .ipynb files)
+.ipynb_checkpoints/
+
+# Ignore VSCode and PyCharm config folders (optional)
+.vscode/
+.idea/
+
+# Ignore local test data or secret files
+*.log
+*.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
